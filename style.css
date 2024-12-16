@@ -1,9 +1,8 @@
 
 body{
-    
     margin: 0;
-    font-family: "Poppins", sans-serif;
     height: 19cm;
+    font-family: "Poppins", sans-serif;
     background-color: #0d1321;
 }
 main{
@@ -279,4 +278,55 @@ main{
     border: none;
     font-size: 40px;
     color: white;
+}
+
+@media (max-width: 1180px ) and (min-width:844px)  {
+    .main-section2{
+       display: none;
+    }
+    .main-section1{
+        width: 100%;
+        height: 19.5cm;
+        background-image: url("./src/5818397.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main-section1-section1{
+        height: 18cm;
+        width: 60%;
+}
+}
+@media (max-width:844px) and (min-width:667px){
+    .main-section2{
+        display: none;
+     }
+     .main-section1{
+        width: 100%;
+        height: 19.5cm;
+        background-image: url("./src/5818397.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main-section1-section1{
+        height: 18cm;
+        width: 60%;
+}
+}
+
+
+@media (max-width:667px)  {
+    .main-section2{
+        display: none;
+     }
+     .main-section1{
+        width: 100%;
+        height: 19.5cm;
+        background-image: url("./src/5818397.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main-section1-section1{
+        height: 18cm;
+        width: 90%;
+}
 }
