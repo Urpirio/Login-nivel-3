@@ -41,6 +41,7 @@ function Left() {
     
     let main_section3 = document.getElementById("main-section3")
     main_section3.style.display = "none";
+    main_section3.style.animation ="background-info 1s";
     
     let main_section1_section1 = document.getElementById("main-section1-section1")
     main_section1_section1.style.border = "3px solid #3b0086";
@@ -77,6 +78,7 @@ function login(){
 
     let section1_section1_H1_H3_2 = document.getElementById("section1-section1-H1-H3-2");
     section1_section1_H1_H3_2.style.display ="flex";
+    section1_section1_H1_H3_2.style.animation = "header-form 1s";
 
     let section1_section1_H1_H3 = document.getElementById("section1-section1-H1-H3");
     section1_section1_H1_H3.style.display = "none";
@@ -87,6 +89,7 @@ function login(){
     let login_Account = document.getElementById("login-Account");
     login_Account.style.display = "block";
     login_Account.style.fontSize = "16px";
+    login_Account.style.animation = "animacion_button 1s";
 
     let login = document.getElementById("login");
     login.style.display = "none";
@@ -97,15 +100,18 @@ function login(){
 function SignUp(){
     let Name = document.getElementById("Name");
     Name.style.display = "flex";
+    Name.style.animation ="animacion_input 1s";
 
     let section1_section1_H1_H3_2 = document.getElementById("section1-section1-H1-H3-2");
     section1_section1_H1_H3_2.style.display ="none";
 
     let section1_section1_H1_H3 = document.getElementById("section1-section1-H1-H3");
     section1_section1_H1_H3.style.display = "flex";
+    section1_section1_H1_H3.style.animation = "header-form 1s";  
 
     let Create_Account = document.getElementById("Create_Account")
     Create_Account.style.display = "block";
+    Create_Account.style.animation = "animacion_button 1s";
 
     let login_Account = document.getElementById("login-Account");
     login_Account.style.display = "none";
