@@ -81,6 +81,20 @@ main{
     display: none;
     flex-flow: column;
 }
+#section1-section1-H1-H3-2{
+    animation: none;
+}
+@keyframes header-form {
+    from{
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    to{
+        opacity: 1
+        ;
+        transform: translateY(0px);
+    }
+}
 .section1-section1-H1-H3-2 h1{
     margin: 0;
     font-size: 25px;
@@ -110,6 +124,17 @@ main{
 .main-section1-section1-form form div input::placeholder{
     color: rgba(255, 255, 255, 0.81);
 }
+#Name{
+    animation: none;
+}
+@keyframes animacion_input {
+    from{
+        transform: translateY(-30px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
 .main-section1-section1-form form div button{
     height: 1cm;
     width: 7cm;
@@ -123,6 +148,22 @@ main{
     background: linear-gradient(-90deg,#7765e3,#6200b3,#3b0086,#6200b3,#7765e3);
     background-size: 500%;
     animation: color1 10s linear infinite ;
+}
+#Create_Account{
+    animation: none;
+}
+#login-Account{
+   animation: none; 
+}
+@keyframes animacion_button {
+    from{
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
 .main-section1-section1-form form div button:hover{
     height: 1.1cm;
@@ -200,6 +241,10 @@ main{
     align-items: center;
     background: #0e1722;
 }
+#main-section2{
+    animation: background-info 1s;
+}
+
 .main-section2-div1{
     width: 95%;
     height: 92%;
@@ -231,10 +276,12 @@ main{
     background: none;
     border: none;
     font-size: 40px;
-
     color: white;
+    transition: 300ms;
 }
-
+.main-section2-div1 div button:hover{
+    font-size: 45px;
+}
 
 /*Ventana numero dos*/
 .main-section3{
@@ -243,6 +290,19 @@ main{
     justify-content: center;
     align-items: center;
     background: #0e1722;
+}
+#main-section3{
+    animation: background-info 1s;
+}
+@keyframes background-info {
+    from{
+        opacity: 0;
+        
+    }
+    to{
+        opacity: 1;
+        
+    }
 }
 .main-section3-div1{
     width: 95%;
@@ -278,8 +338,11 @@ main{
     border: none;
     font-size: 40px;
     color: white;
+    transition: 300ms;
 }
-
+.main-section3-div1 div button:hover{
+    font-size: 45px;
+}
 @media (max-width: 1180px ) and (min-width:844px)  {
     .main-section2{
        display: none;
